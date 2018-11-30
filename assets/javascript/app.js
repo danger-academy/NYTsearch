@@ -12,10 +12,12 @@ $("#run-search").on("click", function(event) {
 
     event.preventDefault();
 
-// var search = $("#search-term").val().trim();
-// var records = $("#num-records-select").val().trim();
-// var startYear = $("#start-year").val().trim();
-// var endYear = $("#end-year").val().trim();
+var searchTerm = $("#search-term").val().trim();
+console.log(searchTerm);
+var numResults = $("#num-records-select").val().trim();
+console.log(numResults);
+var startYear = $("#start-year").val().trim();
+var endYear = $("#end-year").val().trim();
 
 $.ajax({
     url: queryURL,
