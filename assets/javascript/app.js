@@ -29,4 +29,10 @@ $.ajax({
     throw err;
 });
 
-})
+});
+
+// This button clears the top articles section
+$("#clear-all").on("click", function() {
+    articleCounter = 0;
+    $("#well-section").empty();
+});
