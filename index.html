@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,16 +39,16 @@
           </div>
           <div class="panel-body">
 
-            <!-- HTML Form for handling the inputs-->
+            <!-- Here we create an HTML Form for handling the inputs-->
             <form role="form">
 
-              <!-- text box for capturing the search-->
+              <!-- Here we create the text box for capturing the search-->
               <div class="form-group">
                 <label for="search">Search Term:</label>
                 <input type="text" class="form-control" id="search-term">
               </div>
 
-              <!-- number of records to retrieve -->
+              <!-- Here we capture the number of records to retrieve -->
               <div class="form-group">
                 <label for="pwd">Number of Records to Retrieve:</label>
                 <select class="form-control" id="num-records-select">
@@ -72,7 +71,7 @@
                 <input type="text" class="form-control" id="end-year">
               </div>
 
-              <!-- final submit button -->
+              <!-- Here we have our final submit button -->
               <button type="submit" class="btn btn-default" id="run-search"><i class="fa fa-search"></i> Search</button>
               <button type="button" class="btn btn-default" id="clear-all"><i class="fa fa-trash"></i> Clear Results</button>
 
@@ -87,26 +86,26 @@
       <div class="col-sm-12">
         <br>
 
-        <!-- This panel will handle each of the articles retrieved -->
+        <!-- This panel will initially be made up of a panel and wells for each of the articles retrieved -->
         <div class="panel panel-primary">
 
-          <!-- Panel Heading for retrieved articles div -->
+          <!-- Panel Heading for the retrieved articles box -->
           <div class="panel-heading">
             <h3 class="panel-title"><strong><i class="fa fa-table"></i>   Top Articles</strong></h3>
           </div>
 
-          <!-- This div will hold each of the resulting articles -->
-          <div class="panel-body" id="well-section">
+          <!-- This main panel will hold each of the resulting articles -->
+          <div class="panel-body" id="showArticles">
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Footer -->
+    <!-- Footer Region -->
     <div class="row">
       <div class="col-sm-12">
 
-        <!-- Line Break -->
+        <!-- Line Break  -->
         <hr>
         <h5 class="text-center"><small>Made with lots of <i class="fa fa-heart"></i></small></h5>
 
@@ -118,7 +117,7 @@
   <!-- jQuery JS -->
   <script src="https://code.jquery.com/jquery.js"></script>
 
-  <!-- JavaScript -->
+  <!-- Code to the JavaScript File -->
   <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
